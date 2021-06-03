@@ -10,12 +10,12 @@ const addResult = document.getElementById('add-result');
 
 // set event listeners 
 addButton.addEventListener('click', () => {
-  const x = Number(addxInput.value);
-  const y = Number(addyInput.value);
+    const x = Number(addxInput.value);
+    const y = Number(addyInput.value);
 
-  const sum = add(x, y);
+    const sum = add(x, y);
 
-  addResult.textContent = sum;
+    addResult.textContent = sum;
 
 });
   // get user input(s)
