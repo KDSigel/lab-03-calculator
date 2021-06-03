@@ -33,11 +33,19 @@ footer {
     background-color: #FAF0EA;
     padding: 10px;
 }
+
+button {
+    color: #ffffff;
+    background-color:#324241c0;
+    border-radius: 5px;
+}
+
 .operation {
     display: grid;
-    background: greenyellow;
+    background: #A2D7D2;
     padding: 15px;
-    border: 3px solid greenyellow;
-    grid-template-columns: 1fr auto 1fr auto 75px;
+    border: 3px solid rgb(255, 255, 255);
+    grid-template-columns: 1fr auto 1fr auto 1fr;
     grid-gap: 10px;
+    border-radius: 22px;
 }
